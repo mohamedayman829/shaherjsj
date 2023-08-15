@@ -178,7 +178,7 @@ async def unban_ass(_, CallbackQuery):
         )
 
 
-@app.on_callback_query(filters.regex("Shahm_help"))
+@app.on_callback_query(filters.regex("Shaher_help"))
 async def help_menu(_, query: CallbackQuery):
     try:
         await query.answer()
@@ -215,7 +215,7 @@ async def open_hmenu(_, query: CallbackQuery):
 
 
 @app.on_callback_query(filters.regex("Shahm_home"))
-async def home_Shahm(_, query: CallbackQuery):
+async def home_Shaher(_, query: CallbackQuery):
     try:
         await query.answer()
     except:
